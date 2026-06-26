@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://phishguard-backend-production-7826.up.railway.app'
+const BASE_URL = 'https://phishguard-backend-production-7826.up.railway.app'
 
 const api = axios.create({
   baseURL: `${BASE_URL}/api/v1`,
